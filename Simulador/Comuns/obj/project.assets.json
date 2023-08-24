@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Comuns/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Comuns.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Comuns.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Comuns/1.0.0": {
-      "type": "project",
-      "path": "../Comuns/Comuns.csproj",
-      "msbuildProject": "../Comuns/Comuns.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Comuns >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\081200025\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
-      "projectName": "Simulador",
-      "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
+      "projectUniqueName": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
+      "projectName": "Comuns",
+      "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
       "packagesPath": "C:\\Users\\081200025\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\obj\\",
+      "outputPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +39,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj": {
-              "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
