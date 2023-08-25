@@ -13,7 +13,7 @@ namespace Comuns
 
         private int ProgramCounter { get; set; }
         private IEnumerable<Processo> JobsQueue { get; set; }
-        public IEnumerable<Processo> WaitingQueue { get => JobsQueue.Where(processo => ProgramCounter >= processo.TempoChegada); }
+        private IEnumerable<Processo> WaitingQueue { get => JobsQueue.Where(processo => ProgramCounter >= processo.TempoChegada && !processo.IsDone); }
 
         public void IncrementaProgramCounter() => ProgramCounter++;
 

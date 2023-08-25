@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Simulador/1.0.0": {
+        "dependencies": {
+          "Comuns": "1.0.0"
+        },
+        "runtime": {
+          "Simulador.dll": {}
+        }
+      },
+      "Comuns/1.0.0": {
+        "runtime": {
+          "Comuns.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simulador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Comuns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -14,6 +14,7 @@ namespace Comuns
             TempoChegada = chegada;
             TempoDeServico = tempoDeServico;
             Prioridade = prioridade;
+            TempoServicoRestante = tempoDeServico;
         }
 
         public int TempoDeServico { get; set; }
@@ -22,5 +23,13 @@ namespace Comuns
         public int TempoTermino { get; set; }
         public int TempoServicoRestante { get; set; }
         public bool IsDone { get => TempoServicoRestante == 0; }
+
+        public void DiminuiTempoServicoRestante(int instanteAtual)
+        {
+            TempoServicoRestante--;
+
+            if (IsDone)
+                TempoTermino = instanteAtual;
+        }
     }
 }

@@ -6,14 +6,9 @@ namespace Simulador
     {
         static void Main(string[] args)
         {
-            var jobQueue = new ReadyQueue(GeradorProcessos.GeraProcessosPadroes());
-
-            foreach(var job in jobQueue)
-            {
-
-            }
-
-            Console.WriteLine("Hello, World!");
+            var listaProcessos = GeradorProcessos.GeraProcessosPadroes();
+            var escalonadorFCFS = new FirstComeFirstServed(new ReadyQueue(listaProcessos));
+            escalonadorFCFS.Executa();
         }
     }
 }

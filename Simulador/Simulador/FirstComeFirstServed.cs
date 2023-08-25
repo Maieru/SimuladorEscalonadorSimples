@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Comuns;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,12 @@ using System.Threading.Tasks;
 
 namespace Simulador
 {
-    public class FirstComeFirstServed
+    public class FirstComeFirstServed : Escalonador
     {
-        public void Executa() => throw new NotImplementedException();
+        public FirstComeFirstServed(ReadyQueue processos) : base(processos)
+        {
+        }
+
+        protected override Processo RecuperaProximoProcesso() => ReadyQueue.FirstOrDefault();
     }
 }
