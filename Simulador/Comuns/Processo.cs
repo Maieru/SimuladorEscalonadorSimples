@@ -29,7 +29,7 @@ namespace Comuns
             TempoServicoRestante--;
 
             if (IsDone)
-                TempoTermino = instanteAtual;
+                TempoTermino = instanteAtual + 1;
         }
     }
 }

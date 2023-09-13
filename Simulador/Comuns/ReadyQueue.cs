@@ -19,5 +19,7 @@ namespace Comuns
 
         public IEnumerator<Processo> GetEnumerator() => WaitingQueue.GetEnumerator();
         IEnumerator IEnumerable.GetEnumerator() => WaitingQueue.GetEnumerator();
+
+        public IEnumerable<Processo> GetDoneProcess() => JobsQueue.Where(j => j.IsDone);
     }
 }

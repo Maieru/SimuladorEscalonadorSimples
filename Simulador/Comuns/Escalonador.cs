@@ -11,16 +11,19 @@ namespace Comuns
         protected ReadyQueue ReadyQueue { get; set; }
         protected int InstanteAtual { get; set; }
         public Escalonador(ReadyQueue processos) { ReadyQueue = processos; }
+        protected Processo ProcessoAtual { get; set; }
 
-        public void Executa()
+        public IEnumerable<Processo> Executa()
         {
             while (ReadyQueue.Any())
             {
-                var proximoProcesso = RecuperaProximoProcesso();
-                proximoProcesso.DiminuiTempoServicoRestante(InstanteAtual);
+                ProcessoAtual = RecuperaProximoProcesso();
+                ProcessoAtual.DiminuiTempoServicoRestante(InstanteAtual);
                 ReadyQueue.IncrementaProgramCounter();
                 InstanteAtual++;
             }
+
+            return ReadyQueue.GetDoneProcess();
         }
         protected abstract Processo RecuperaProximoProcesso();
     }
