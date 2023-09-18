@@ -9,6 +9,7 @@ namespace Simulador
 {
     public class RoundRobin : Escalonador
     {
+        private Queue<Processo> Queue = new Queue<Processo>();
         private int Quantum { get; set; } = 2;
         private bool IsQuantumChange { get => InstanteAtual % Quantum == 0; } 
 
@@ -23,22 +24,37 @@ namespace Simulador
 
         protected override Processo RecuperaProximoProcesso()
         {
-            var lista = ReadyQueue.AsEnumerable().ToList();
+            var lista = ReadyQueue.ToList();
+            AjustaFila(lista);
 
-            if (ProcessoAtual != null && !ProcessoAtual.IsDone)
+            if (ProcessoAtual != null)
             {
-                if (!IsQuantumChange)
+                if (!IsQuantumChange && ProcessoAtual.TempoServicoRestante > 0)
                     return ProcessoAtual;
 
-                lista.Add(ProcessoAtual);
+                if (!ProcessoAtual.IsDone && ProcessoAtual.Id == Queue.First().Id)
+                {
+                    var processo = Queue.Dequeue();
+                    Queue.Enqueue(processo);
+                }
+                else
+                {
+                    Queue.Dequeue();
+                }
             }
 
-            var processo = lista.First();
-            lista.Remove(processo);
+            return Queue.First();
+        }
 
-            ReadyQueue = new ReadyQueue(lista.AsEnumerable());
-
-            return processo;
+        public void AjustaFila(List<Processo> ReadyQueue)
+        {
+            foreach (var processo in ReadyQueue)
+            {
+                if (!Queue.Any(p => p.Id == processo.Id))
+                {
+                    Queue.Enqueue(processo);
+                }
+            }
         }
     }
 }

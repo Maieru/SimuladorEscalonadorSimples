@@ -10,3 +10,15 @@ C:\Users\081200025\Source\Repos\Maieru\SimuladorEscalonadorSimples\Simulador\Com
 C:\Users\081200025\Source\Repos\Maieru\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\refint\Comuns.dll
 C:\Users\081200025\Source\Repos\Maieru\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.pdb
 C:\Users\081200025\Source\Repos\Maieru\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\ref\Comuns.dll
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\bin\Debug\net7.0\Comuns.deps.json
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\bin\Debug\net7.0\Comuns.dll
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\bin\Debug\net7.0\Comuns.pdb
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.csproj.AssemblyReference.cache
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.AssemblyInfoInputs.cache
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.AssemblyInfo.cs
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.csproj.CoreCompileInputs.cache
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.dll
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\refint\Comuns.dll
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\Comuns.pdb
+C:\Users\kauan\Downloads\SimuladorEscalonadorSimples\Simulador\Comuns\obj\Debug\net7.0\ref\Comuns.dll

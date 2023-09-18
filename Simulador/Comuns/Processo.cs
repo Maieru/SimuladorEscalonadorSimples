@@ -9,14 +9,16 @@ namespace Comuns
     public class Processo
     {
         public Processo() { }
-        public Processo(int chegada, int tempoDeServico, int prioridade)
+        public Processo(int id,int chegada, int tempoDeServico, int prioridade)
         {
+            Id = id;
             TempoChegada = chegada;
             TempoDeServico = tempoDeServico;
             Prioridade = prioridade;
             TempoServicoRestante = tempoDeServico;
         }
 
+        public int Id { get; set; }
         public int TempoDeServico { get; set; }
         public int Prioridade { get; set; }
         public int TempoChegada { get; set; }
