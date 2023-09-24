@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kauan\\.nuget\\packages\\": {}
+    "C:\\Users\\soljo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kauan\\Downloads\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
+      "projectUniqueName": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
       "projectName": "Comuns",
-      "projectPath": "C:\\Users\\kauan\\Downloads\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
-      "packagesPath": "C:\\Users\\kauan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kauan\\Downloads\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\obj\\",
+      "projectPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
+      "packagesPath": "C:\\Users\\soljo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kauan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\soljo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
