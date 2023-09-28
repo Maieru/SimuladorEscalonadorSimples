@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj": {}
+    "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj": {
+    "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
+        "projectUniqueName": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
         "projectName": "Comuns",
-        "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
-        "packagesPath": "C:\\Users\\081200025\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\obj\\",
+        "projectPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj",
+        "packagesPath": "C:\\Users\\soljo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\081200025\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soljo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,24 +59,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj": {
+    "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
+        "projectUniqueName": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
         "projectName": "Simulador",
-        "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
-        "packagesPath": "C:\\Users\\081200025\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\obj\\",
+        "projectPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\Simulador.csproj",
+        "packagesPath": "C:\\Users\\soljo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Simulador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\081200025\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soljo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,15 +85,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj": {
-                "projectPath": "C:\\Users\\081200025\\source\\repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj"
+              "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj": {
+                "projectPath": "C:\\Users\\soljo\\Source\\Repos\\Maieru\\SimuladorEscalonadorSimples\\Simulador\\Comuns\\Comuns.csproj"
               }
             }
           }
@@ -124,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

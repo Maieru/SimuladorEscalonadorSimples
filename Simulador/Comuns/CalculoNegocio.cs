@@ -10,7 +10,7 @@ namespace Comuns
     {
         public static double TempoMedioExecucao(IEnumerable<Processo> processos)
         {
-            var somatoriaTempos = 0;
+            double somatoriaTempos = 0;
 
             foreach (var processo in processos)
                 somatoriaTempos += processo.TempoTermino - processo.TempoChegada;
@@ -20,7 +20,7 @@ namespace Comuns
 
         public static double TempoMedioEspera(IEnumerable<Processo> processos)
         {
-            var somatoriaTemposEspera = 0;
+            double somatoriaTemposEspera = 0;
 
             foreach (var processo in processos)
                 somatoriaTemposEspera += processo.TempoTermino - processo.TempoChegada - processo.TempoDeServico;
